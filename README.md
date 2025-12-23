@@ -23,5 +23,5 @@
 
 ### 1. Clone Repository
 ```bash
-git clone <repo-url>
+git clone https://github.com/ArtaLugas/kuesioner_app.git
 cd kuesioner_app
