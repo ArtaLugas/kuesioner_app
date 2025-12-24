@@ -1,6 +1,6 @@
 from flask import session, abort
 from app.models.user import User
-from app.extensions import db
+
 
 def session_guard():
     user = User.query.get(session.get("user_id"))

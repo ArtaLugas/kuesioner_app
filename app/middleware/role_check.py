@@ -1,7 +1,5 @@
-from flask import session, abort, request
+from flask import session, abort
 
-def role_required(expected_role):
-    def wrapper():
-        if session.get("role") != expected_role:
-            abort(403)
-    return wrapper
+def require_role(expected_role):
+    if session.get("role") != expected_role:
+        abort(403)
