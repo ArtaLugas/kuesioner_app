@@ -1,5 +1,6 @@
 from app.extensions import db
 
+
 class UserRole(db.Model):
     __tablename__ = "user_roles"
 

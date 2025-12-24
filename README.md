@@ -1,4 +1,4 @@
-# Sistem WTP — Kuesioner & Interview
+# Sistem WTP — Kuesioner & Wawancara
 
 ## Status
 🚧 Development — Auth & Session Foundation Completed
@@ -23,5 +23,5 @@
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/ArtaLugas/kuesioner_app.git
+git clone <repo-url>
 cd kuesioner_app
